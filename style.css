@@ -203,35 +203,3 @@ footer {
   padding: 20px;
   border-radius: 12px;
 }
-
-@media screen and (max-width: 768) {
-  .nav {
-    padding-inline: 15px;
-  }
-  .lef-nav {
-    gap: 10px;
-    align-items: center;
-  }
-  .nav .lef-nav a img {
-    height: 23px;
-  }
-  nav .rigth-nav a {
-    display: none;
-    background-color: white;
-    padding: 0;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-  }
-  nav .right-nav .icon {
-    display: block;
-    background-color: white;
-    padding: 0;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-  }
-  nav .right-nav .icon:hover {
-    background-color: black;
-  }
-}
